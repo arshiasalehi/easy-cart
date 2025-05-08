@@ -1,3 +1,4 @@
+# ![Phone](https://img.shields.io/badge/📱-Phone-blue?style=for-the-badge) Easy Cart
 
 # 💻 Tech Stack
 
