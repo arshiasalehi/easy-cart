@@ -62,8 +62,8 @@
 | Metric               | Value                    |
 |----------------------|--------------------------|
 | 🧑‍💻 Main Language     | ![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white) |
-| 🔥 Total Commits     | `134` (as of May 2025)   |
-| 🗂️ Files & Folders    | `12 files`, `4 folders`  |
+| 🔥 Total Commits     | `86` (as of May 2025)   |
+| 🗂️ Files & Folders    | `23 files`, `7 folders`  |
 | 📦 Dependencies       | Firebase, Stripe, SwiftUI |
 | ⏳ Development Time   | ~3 weeks                 |
 | 📁 Repo Size          | `4.3 MB`                 |
