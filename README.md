@@ -1,11 +1,37 @@
-# 📱Easy Cart
+# 📱 easyCart
+
+**easyCart** is a modern iOS e-commerce application built with **SwiftUI**, **Firebase**, and **Stripe**. It allows users to browse products, add items to their cart with size-specific inventory, securely check out using Stripe’s PaymentSheet (with Apple Pay and cards), and stores orders in Firebase Firestore.
+
+---
+
+## 🚀 Features
+
+- 🔐 Firebase Authentication (Sign In / Sign Up)
+- 🛍 Product catalog with support for multiple sizes (Small, Medium, Large)
+- 🧺 Cart management:
+  - Add to cart
+  - Update item quantity
+  - View per-item totals and cart total
+  - Remove items
+- 💳 Stripe Payment Integration:
+  - Apple Pay and card support via Stripe PaymentSheet
+  - Dynamic backend URL with ngrok
+- 📦 Order processing:
+  - Creates Firestore order document after successful payment
+  - Clears cart automatically
+  - Decreases inventory stock
+- 📸 Image uploading and display
+- 🖥 Node.js + Express backend for secure Stripe communication
+
+---
 
 # 💻 Tech Stack
 
 ## 🖥️ Frontend (iOS App)
 ![Swift](https://img.shields.io/badge/Swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-005FAD?style=for-the-badge&logo=apple&logoColor=white)
-
+![Combine](https://img.shields.io/badge/Combine-informational?style=for-the-badge&logo=swift&logoColor=white)
+![AsyncImage](https://img.shields.io/badge/AsyncImage-iOS15+-blue?style=for-the-badge&logo=apple&logoColor=white)
 
 ## 🔥 Firebase
 ![Firebase Auth](https://img.shields.io/badge/Firebase_Auth-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34)
@@ -24,14 +50,15 @@
 
 ## 🌐 Networking & Tunneling
 ![ngrok](https://img.shields.io/badge/ngrok-1F1F1F?style=for-the-badge&logo=ngrok&logoColor=white)
-
+![URLSession](https://img.shields.io/badge/URLSession-007AFF?style=for-the-badge&logo=apple&logoColor=white)
 
 ## 🛠 Dev Tools & Automation
 ![Shell Script](https://img.shields.io/badge/Shell_Script-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Simulator](https://img.shields.io/badge/iOS_Simulator-333333?style=for-the-badge&logo=apple&logoColor=white)
 
+---
 
-# 📊 About project:
-
+# 📊 Project Stats
 
 | Metric               | Value                    |
 |----------------------|--------------------------|
@@ -42,12 +69,26 @@
 | ⏳ Development Time   | ~3 weeks                 |
 | 📁 Repo Size          | `4.3 MB`                 |
 
+---
 
 # 📚 Top Languages Used in This Project
 
-![Swift](https://img.shields.io/badge/Swift-65%25-F54A2A?style=for-the-badge&logo=swift&logoColor=white)
-![SwiftUI](https://img.shields.io/badge/SwiftUI-25%25-005FAD?style=for-the-badge&logo=apple&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-10%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Swift](https://img.shields.io/badge/Swift-75%25-F54A2A?style=for-the-badge&logo=swift&logoColor=white)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-20%25-005FAD?style=for-the-badge&logo=apple&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-5%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ---
+
+# 🧪 Test Payment Info
+
+Use the following test card for development (Stripe test mode):
+
+- **Card Number:** `4242 4242 4242 4242`
+- **Expiry Date:** Any future date
+- **CVC:** Any 3-digit number
+- **ZIP Code:** Any 5-digit number
+
+---
+
 [![](https://visitcount.itsvg.in/api?id=easyCartProject&label=Views&color=6&icon=5)](https://visitcount.itsvg.in)
+
