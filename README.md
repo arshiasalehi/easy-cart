@@ -11,3 +11,11 @@
 [![](https://visitcount.itsvg.in/api?id=arshiasalehi&icon=0&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
+
+
+![Stars](https://img.shields.io/github/stars/arshiasalehi/easyCart?style=for-the-badge)
+![Forks](https://img.shields.io/github/forks/arshiasalehi/easyCart?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/arshiasalehi/easyCart?style=for-the-badge)
+
+👉 [See project contributors and stats](https://github.com/arshiasalehi/easyCart/graphs/contributors)
