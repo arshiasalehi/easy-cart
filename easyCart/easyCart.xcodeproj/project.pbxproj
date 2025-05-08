@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E2D09492D82676B0023C03B /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7E2D09482D82676B0023C03B /* FirebaseAnalytics */; };
+		7E2D094B2D82676B0023C03B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7E2D094A2D82676B0023C03B /* FirebaseAuth */; };
+		7E2D094D2D82676B0023C03B /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 7E2D094C2D82676B0023C03B /* FirebaseCore */; };
+		7E2D094F2D82676B0023C03B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 7E2D094E2D82676B0023C03B /* FirebaseFirestore */; };
+		7E2D09512D82676B0023C03B /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7E2D09502D82676B0023C03B /* FirebaseStorage */; };
+		7E2D09912D8277400023C03B /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 7E2D09902D8277400023C03B /* FirebaseDatabase */; };
+		7EB2B00A2DA9E428000E382A /* Stripe in Frameworks */ = {isa = PBXBuildFile; productRef = 7EB2B0092DA9E428000E382A /* Stripe */; };
+		7EB2B00C2DA9E428000E382A /* StripeApplePay in Frameworks */ = {isa = PBXBuildFile; productRef = 7EB2B00B2DA9E428000E382A /* StripeApplePay */; };
+		7EB2B00E2DA9E428000E382A /* StripeCardScan in Frameworks */ = {isa = PBXBuildFile; productRef = 7EB2B00D2DA9E428000E382A /* StripeCardScan */; };
+		7EB2B0102DA9E428000E382A /* StripeConnect in Frameworks */ = {isa = PBXBuildFile; productRef = 7EB2B00F2DA9E428000E382A /* StripeConnect */; };
+		7EB2B0122DA9E428000E382A /* StripeFinancialConnections in Frameworks */ = {isa = PBXBuildFile; productRef = 7EB2B0112DA9E428000E382A /* StripeFinancialConnections */; };
+		7EB2B04D2DA9FA29000E382A /* StripePaymentSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 7EB2B04C2DA9FA29000E382A /* StripePaymentSheet */; };
+		7EB2B04F2DA9FA32000E382A /* StripePayments in Frameworks */ = {isa = PBXBuildFile; productRef = 7EB2B04E2DA9FA32000E382A /* StripePayments */; };
+		7EDFDB292D8A3ABB0014D5DA /* ImagePicker in Frameworks */ = {isa = PBXBuildFile; productRef = 7EDFDB282D8A3ABA0014D5DA /* ImagePicker */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E2D09342D82604E0023C03B /* easyCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = easyCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7E2D09362D82604E0023C03B /* easyCart */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = easyCart;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E2D09312D82604E0023C03B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E2D09912D8277400023C03B /* FirebaseDatabase in Frameworks */,
+				7EB2B04D2DA9FA29000E382A /* StripePaymentSheet in Frameworks */,
+				7EB2B0122DA9E428000E382A /* StripeFinancialConnections in Frameworks */,
+				7E2D09492D82676B0023C03B /* FirebaseAnalytics in Frameworks */,
+				7EB2B0102DA9E428000E382A /* StripeConnect in Frameworks */,
+				7E2D094F2D82676B0023C03B /* FirebaseFirestore in Frameworks */,
+				7EB2B00C2DA9E428000E382A /* StripeApplePay in Frameworks */,
+				7E2D094D2D82676B0023C03B /* FirebaseCore in Frameworks */,
+				7EDFDB292D8A3ABB0014D5DA /* ImagePicker in Frameworks */,
+				7EB2B00A2DA9E428000E382A /* Stripe in Frameworks */,
+				7E2D09512D82676B0023C03B /* FirebaseStorage in Frameworks */,
+				7EB2B00E2DA9E428000E382A /* StripeCardScan in Frameworks */,
+				7EB2B04F2DA9FA32000E382A /* StripePayments in Frameworks */,
+				7E2D094B2D82676B0023C03B /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E2D092B2D82604E0023C03B = {
+			isa = PBXGroup;
+			children = (
+				7E2D09362D82604E0023C03B /* easyCart */,
+				7E2D098F2D8277400023C03B /* Frameworks */,
+				7E2D09352D82604E0023C03B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E2D09352D82604E0023C03B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E2D09342D82604E0023C03B /* easyCart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E2D098F2D8277400023C03B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E2D09332D82604E0023C03B /* easyCart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E2D09422D8260500023C03B /* Build configuration list for PBXNativeTarget "easyCart" */;
+			buildPhases = (
+				7E2D09302D82604E0023C03B /* Sources */,
+				7E2D09312D82604E0023C03B /* Frameworks */,
+				7E2D09322D82604E0023C03B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7E2D09362D82604E0023C03B /* easyCart */,
+			);
+			name = easyCart;
+			packageProductDependencies = (
+				7E2D09482D82676B0023C03B /* FirebaseAnalytics */,
+				7E2D094A2D82676B0023C03B /* FirebaseAuth */,
+				7E2D094C2D82676B0023C03B /* FirebaseCore */,
+				7E2D094E2D82676B0023C03B /* FirebaseFirestore */,
+				7E2D09502D82676B0023C03B /* FirebaseStorage */,
+				7E2D09902D8277400023C03B /* FirebaseDatabase */,
+				7EDFDB282D8A3ABA0014D5DA /* ImagePicker */,
+				7EB2B0092DA9E428000E382A /* Stripe */,
+				7EB2B00B2DA9E428000E382A /* StripeApplePay */,
+				7EB2B00D2DA9E428000E382A /* StripeCardScan */,
+				7EB2B00F2DA9E428000E382A /* StripeConnect */,
+				7EB2B0112DA9E428000E382A /* StripeFinancialConnections */,
+				7EB2B04C2DA9FA29000E382A /* StripePaymentSheet */,
+				7EB2B04E2DA9FA32000E382A /* StripePayments */,
+			);
+			productName = easyCart;
+			productReference = 7E2D09342D82604E0023C03B /* easyCart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E2D092C2D82604E0023C03B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					7E2D09332D82604E0023C03B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 7E2D092F2D82604E0023C03B /* Build configuration list for PBXProject "easyCart" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E2D092B2D82604E0023C03B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7E2D09472D82676B0023C03B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				7EDFDB272D8A3ABA0014D5DA /* XCRemoteSwiftPackageReference "ImagePicker" */,
+				7EB2B0082DA9E428000E382A /* XCRemoteSwiftPackageReference "stripe-ios" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7E2D09352D82604E0023C03B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E2D09332D82604E0023C03B /* easyCart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E2D09322D82604E0023C03B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E2D09302D82604E0023C03B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7E2D09402D8260500023C03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E2D09412D8260500023C03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E2D09432D8260500023C03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = easyCart/easyCart.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"easyCart/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arshia.easyCart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E2D09442D8260500023C03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = easyCart/easyCart.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"easyCart/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arshia.easyCart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E2D092F2D82604E0023C03B /* Build configuration list for PBXProject "easyCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E2D09402D8260500023C03B /* Debug */,
+				7E2D09412D8260500023C03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E2D09422D8260500023C03B /* Build configuration list for PBXNativeTarget "easyCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E2D09432D8260500023C03B /* Debug */,
+				7E2D09442D8260500023C03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7E2D09472D82676B0023C03B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.9.0;
+			};
+		};
+		7EB2B0082DA9E428000E382A /* XCRemoteSwiftPackageReference "stripe-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stripe/stripe-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 24.11.0;
+			};
+		};
+		7EDFDB272D8A3ABA0014D5DA /* XCRemoteSwiftPackageReference "ImagePicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hyperoslo/ImagePicker";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7E2D09482D82676B0023C03B /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E2D09472D82676B0023C03B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		7E2D094A2D82676B0023C03B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E2D09472D82676B0023C03B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		7E2D094C2D82676B0023C03B /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E2D09472D82676B0023C03B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		7E2D094E2D82676B0023C03B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E2D09472D82676B0023C03B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		7E2D09502D82676B0023C03B /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E2D09472D82676B0023C03B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		7E2D09902D8277400023C03B /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E2D09472D82676B0023C03B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		7EB2B0092DA9E428000E382A /* Stripe */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7EB2B0082DA9E428000E382A /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = Stripe;
+		};
+		7EB2B00B2DA9E428000E382A /* StripeApplePay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7EB2B0082DA9E428000E382A /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripeApplePay;
+		};
+		7EB2B00D2DA9E428000E382A /* StripeCardScan */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7EB2B0082DA9E428000E382A /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripeCardScan;
+		};
+		7EB2B00F2DA9E428000E382A /* StripeConnect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7EB2B0082DA9E428000E382A /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripeConnect;
+		};
+		7EB2B0112DA9E428000E382A /* StripeFinancialConnections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7EB2B0082DA9E428000E382A /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripeFinancialConnections;
+		};
+		7EB2B04C2DA9FA29000E382A /* StripePaymentSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7EB2B0082DA9E428000E382A /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripePaymentSheet;
+		};
+		7EB2B04E2DA9FA32000E382A /* StripePayments */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7EB2B0082DA9E428000E382A /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripePayments;
+		};
+		7EDFDB282D8A3ABA0014D5DA /* ImagePicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7EDFDB272D8A3ABA0014D5DA /* XCRemoteSwiftPackageReference "ImagePicker" */;
+			productName = ImagePicker;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7E2D092C2D82604E0023C03B /* Project object */;
+}
