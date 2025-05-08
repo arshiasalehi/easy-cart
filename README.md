@@ -15,14 +15,12 @@
 | 📁 Repo Size          | `4.3 MB`                 |
 
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=arshiasalehi&theme=default&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+# 📚 Top Languages Used in This Project
+
+![Swift](https://img.shields.io/badge/Swift-65%25-F54A2A?style=for-the-badge&logo=swift&logoColor=white)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-25%25-005FAD?style=for-the-badge&logo=apple&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-10%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ---
 [![](https://visitcount.itsvg.in/api?id=arshiasalehi&icon=0&color=0)](https://visitcount.itsvg.in)
 
-
----
-
-![Stars](https://img.shields.io/github/stars/arshiasalehi/easyCart?style=for-the-badge)
-![Issues](https://img.shields.io/github/issues/arshiasalehi/easyCart?style=for-the-badge)
-![License](https://img.shields.io/github/license/arshiasalehi/easyCart?style=for-the-badge)
