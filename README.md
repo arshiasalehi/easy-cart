@@ -30,8 +30,7 @@
 ## 🖥️ Frontend (iOS App)
 ![Swift](https://img.shields.io/badge/Swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-005FAD?style=for-the-badge&logo=apple&logoColor=white)
-![Combine](https://img.shields.io/badge/Combine-informational?style=for-the-badge&logo=swift&logoColor=white)
-![AsyncImage](https://img.shields.io/badge/AsyncImage-iOS15+-blue?style=for-the-badge&logo=apple&logoColor=white)
+
 
 ## 🔥 Firebase
 ![Firebase Auth](https://img.shields.io/badge/Firebase_Auth-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34)
@@ -50,11 +49,11 @@
 
 ## 🌐 Networking & Tunneling
 ![ngrok](https://img.shields.io/badge/ngrok-1F1F1F?style=for-the-badge&logo=ngrok&logoColor=white)
-![URLSession](https://img.shields.io/badge/URLSession-007AFF?style=for-the-badge&logo=apple&logoColor=white)
+
 
 ## 🛠 Dev Tools & Automation
 ![Shell Script](https://img.shields.io/badge/Shell_Script-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![Simulator](https://img.shields.io/badge/iOS_Simulator-333333?style=for-the-badge&logo=apple&logoColor=white)
+
 
 ---
 
