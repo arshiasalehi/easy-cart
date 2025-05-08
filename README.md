@@ -22,5 +22,4 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-10%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=arshiasalehi&icon=0&color=0)](https://visitcount.itsvg.in)
-
+[![](https://visitcount.itsvg.in/api?id=easyCartProject&label=Views&color=6&icon=5)](https://visitcount.itsvg.in)
